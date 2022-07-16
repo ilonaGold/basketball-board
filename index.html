@@ -5,6 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basketball Board || Sscrimba Solo Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <button class="btn new-game-btn" id="new-game-btn">new game</button>
+      <div class="main-info">
+        <h3 class="team-name" id="team-name-home">home</h3>
+        <h2 class="score score-home" id="score-home">0</h2>
+        <div class="btns-container">
+          <button class="btn" id="add-one-btn-home">+1</button>
+          <button class="btn" id="add-two-btn-home">+2</button>
+          <button class="btn" id="add-three-btn-home">+3</button>
+        </div>
+      </div>
+      <div class="main-info">
+        <h3 class="team-name" id="team-name-guest">guest</h3>
+        <h2 class="score score-guest" id="score-guest">0</h2>
+        <div class="btns-container">
+          <button class="btn" id="add-one-btn-guest">+1</button>
+          <button class="btn" id="add-two-btn-guest">+2</button>
+          <button class="btn" id="add-three-btn-guest">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
